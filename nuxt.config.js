@@ -54,15 +54,17 @@ export default {
   /*
   ** Build configuration
   */
-  generate: {
-    dir: 'dist'  // Specifies the output directory for static files
-  }
+ 
   build: {
     /*
     ** You can extend webpack config here
     */
     extend (config, ctx) {
     }
+    generate: {
+      dir: 'dist'  // Specifies the output directory for static files
+    }
   }
+  
 
 }
