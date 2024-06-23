@@ -61,10 +61,10 @@ export default {
     */
     extend (config, ctx) {
     }
-    generate: {
-      dir: 'dist'  // Specifies the output directory for static files
-    }
-  }
-  
+   
+  },
+  generate: {
+    dir: 'dist'  // Specifies the output directory for static files
+  }  
 
 }
